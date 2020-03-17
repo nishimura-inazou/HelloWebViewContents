@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +15,34 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    Hello, WebViewApp!
+    <div class="container-fluid">
+        <div class="wrapper">
+            <header>
+                <h1 class="text-center">Hello, WebView App!</h1>
+            </header>
+            <div class="main">
+
+                <div class="row">
+                    <button class="col btn btn-primary" id="js_button">jsチェック!</button>
+                    <button class="col btn btn-primary" id="notice_button">push通知!</button>
+                    <button class="col btn btn-primary" id="location_button">位置情報!</button>
+                </div>
+
+            </div>
+            <footer>
+
+            </footer>
+        </div>
+    </div>
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
