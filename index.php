@@ -30,8 +30,9 @@
 
                 <div class="row">
                     <button class="col btn btn-primary" id="js_button">jsチェック!</button>
-                    <button class="col btn btn-primary" id="notice_button">push通知!</button>
-                    <button class="col btn btn-primary" id="location_button">位置情報!</button>
+                </div>
+                <div class="row" id="js_result">
+
                 </div>
 
             </div>
